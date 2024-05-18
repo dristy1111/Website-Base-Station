@@ -18,7 +18,7 @@
                 font-size: xx-large;
                 padding: 10px;
             }
-            nav{
+            .menu{
                 font-size: 30px;
                 text-align: center;
                 background-color: burlywood;
@@ -44,6 +44,12 @@
                 font-size: small;
                 padding: 10px;
             }
+            @media only screen and (max-width: 620px) {
+                .menu {
+                    font-size: 20px;
+                    padding: 10px;
+                }
+            }
         </style>
     </head>
     <body>
@@ -51,7 +57,7 @@
             <header>
                 <h1>Reduce Power Consumption and Harmful Effects of Cellular Base Stations</h1>
                 <br><br>
-                <nav>
+                <nav class="menu">
                     <a href="introduction.html">Introduction</a> |
                     <a href="solar.html">Renewable Energy</a> |
                     <a href="sleep_mode.html">Sleep Mode</a> |
